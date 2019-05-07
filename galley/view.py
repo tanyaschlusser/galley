@@ -4,18 +4,14 @@
 This is the "View" of the MVC world.
 """
 import os
+from queue import Queue, Empty
 import threading
-from Tkinter import *
-from tkFont import *
+from tkinter import *
+from tkinter.font import *
+import tkinter.messagebox
 from ttk import *
-import tkMessageBox
 import urlparse
 import webbrowser
-
-try:
-    from Queue import Queue, Empty
-except ImportError:
-    from queue import Queue, Empty  # python 3.x
 
 from tkreadonly import ReadOnlyText
 

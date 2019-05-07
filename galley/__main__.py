@@ -1,9 +1,8 @@
 '''
 This is the main entry point for the Galley GUI.
 '''
-from Tkinter import *
-
 import argparse
+from tkinter import *
 
 from galley import VERSION
 from galley.view import MainWindow

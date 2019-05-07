@@ -1,11 +1,10 @@
 # -*- coding: UTF-8 -*-
 import json
 import os
-from ttk import *
-from Tkinter import *
-from xml.etree import ElementTree as et
-
+from tkinter import *
+from tkinter.ttk import *
 from tkreadonly import normalize_sequence
+from xml.etree import ElementTree as et
 
 from galley.monitor import project_visitor
 
